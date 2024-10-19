@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../../logo.png';
-import {Link} from 'react-router-dom';
 import {ImSearch} from 'react-icons/im'
 
 
