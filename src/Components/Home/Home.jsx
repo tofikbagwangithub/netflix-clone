@@ -75,8 +75,6 @@ const Home = () => {
       setGenre(genres);
     };
 
-    
-
     fetchUpcoming();
     fetchNowPlaying();
     fetchPopular();
@@ -87,10 +85,10 @@ const Home = () => {
   return (
     <section className='home'> 
       <div className='banner' style={{
-        backgroundImage: popularMovies[0]? `url(${`${imgUrl}/${topRatedMovies[5].poster_path}`})` : "rgb(16, 16, 16)",
+        backgroundImage: popularMovies[0]? `url(${`${imgUrl}/${popularMovies[6].poster_path}`})` : "rgb(16, 16, 16)",
       }}>
-        {topRatedMovies[0] && <h1> {topRatedMovies[0].original_title} </h1>}
-        {popularMovies[0] && <p>{popularMovies[0].overview}</p>}
+        {popularMovies[6] && <h1> {popularMovies[6].original_title} </h1>}
+        {popularMovies[6] && <p>{popularMovies[6].overview}</p>}
 
         <div>
           <button> <BiPlay/> Play </button>

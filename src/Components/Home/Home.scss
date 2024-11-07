@@ -1,7 +1,8 @@
 .banner{
     background-color: black;
-    height: 400px;
+    height: 500px;
     background-size: cover;
+    //background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
@@ -27,8 +28,8 @@
     }
     p{
         font-size: 1.2rem;
-        letter-spacing: 2px;
-        word-spacing: 3px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
         font-weight: 100 ;
     }
 
